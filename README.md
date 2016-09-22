@@ -1,10 +1,22 @@
+# Skeleton Slim 3 Help Scout Dynamic App
+
+A basic Slim 3 application to build a Help Scout dynamic app.
+Using the [tompedals/helpscout-dynamic-app](https://github.com/tompedals/helpscout-dynamic-app) library to handle the request and produce the response. Simply implement the provided `AppHandlerInterface` interface for your app.
+
+An example AppHandler is within the skeleton project to show some additional customer information on support tickets.
+Expose your own data as an app for an enhanced support experience!
+
+## Create your project
+
+    composer create-project --no-interaction --stability=dev tompedals/tompedals/helpscout-dynamic-app-slim my-app
+
 ## Getting started
 
 Install the dependencies
 
     composer install
 
-Run the following command to start the server:
+Start the web server
 
     php -S 0.0.0.0:8888 -t public public/index.php
 

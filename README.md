@@ -5,7 +5,7 @@ Using the [tompedals/helpscout-dynamic-app](https://github.com/tompedals/helpsco
 
 ![Example app](http://developer.helpscout.net/img/developers/app-ex.png)
 
-An example AppHandler is within the skeleton project to show some additional customer information on support tickets.
+An [example AppHandler](https://github.com/tompedals/helpscout-dynamic-app-slim/blob/master/src/AppHandler.php) is within the skeleton project to show some additional customer information on support tickets.
 Expose your own data as an app for an enhanced support experience!
 
 ## Create your project

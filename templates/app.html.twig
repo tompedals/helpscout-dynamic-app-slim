@@ -1,0 +1,18 @@
+<h4>Subscription</h4>
+<p class="muted">Customer since {{ subscription.created|date('jS M Y') }}</p>
+<p><strong>${{ (subscription.amount/100)|number_format(2) }}/month</strong></p>
+
+<div class="toggleGroup">
+    <h4><a href="#" class="toggleBtn"><i class="icon-cash"></i>Charges</a></h4>
+    <div class="toggle indent">
+        <ul class="unstyled">
+            {% for charge in charges %}
+                <li>
+                    <span class="muted">{{ charge.date|date('d/m/Y') }}</span>
+                    - ${{ (charge.amount/100)|number_format(2) }}
+                    (<a href="#">#{{ charge.reference }}</a>)
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

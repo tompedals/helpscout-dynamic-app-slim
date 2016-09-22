@@ -10,7 +10,7 @@ Expose your own data as an app for an enhanced support experience!
 
 ## Create your project
 
-    composer create-project --no-interaction --stability=dev tompedals/tompedals/helpscout-dynamic-app-slim my-app
+    composer create-project --no-interaction --stability=dev tompedals/helpscout-dynamic-app-slim my-app
 
 ## Getting started
 
